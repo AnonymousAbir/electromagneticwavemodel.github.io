@@ -1,1 +1,0 @@
-# electromagneticwavemodel.github.io
