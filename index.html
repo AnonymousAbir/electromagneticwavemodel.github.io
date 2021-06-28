@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html ng-app>
+  <head>
+     <title>electromagnetic wave</title>
+    <!-- angular.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js">
+  </script>
+  <!-- css -->
+  <link rel="stylesheet" href="https://maxcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <!-- jQuery -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <srcipt src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></srcipt>
+  <!-- CSS  --->
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  </head>
+  <body>
+        <canvas></canvas>
+        <a href='https://en.m.wikipedia.org/wiki/Electromagnetic_radiation'>em waves on wiki</a>
+        <input type=checkbox id=show-electric checked>
+        <label for=show-electric style='color:yellow'>
+          show electric</label><br>
+        <input type=checkbox id=show-magnetic checked>
+        <label for=show-magnetic style='color:lightblue'>
+          show magnetic</label><br>
+        <input type=checkbox id=show-polar checked>
+        <label for=show-polar style='color:pink'>
+          show polorised wave</label><br>
+        <input type=checkbox id=rotate checked>
+        <label for=rotate>rotate view</label><br>
+        <span>phase difference:<br><input type=range min=0 max=240 value=0 id=phase oninput=resize()></span>
+    </body>
+</html>
+  
+ 
+ 
